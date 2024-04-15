@@ -34,4 +34,4 @@ This project was built using Vite, React, Tailwind CSS, Framer Motion, and TypeS
 
 ## Visit My Portfolio
 
-Check out my portfolio live at [Rahul's Portfolio](https://rahulks.netlify.app/).
+<!-- Check out my portfolio live at [Rahul's Portfolio](https://rahulks.netlify.app/). -->
