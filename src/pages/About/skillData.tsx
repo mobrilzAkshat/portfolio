@@ -1,11 +1,11 @@
-import { BiLogoTypescript, BiLogoTailwindCss, BiLogoRedux, BiLogoJavascript, BiLogoReact, BiLogoHtml5, BiLogoCss3, BiLogoNodejs } from 'react-icons/bi';
+import { BiLogoTypescript, BiLogoTailwindCss, BiLogoRedux, BiLogoJavascript, BiLogoReact, BiLogoNodejs, BiLogoDjango, BiLogoPython } from 'react-icons/bi';
 
 export const skills = [
-  { name: 'JavaScript', percentage: 70, icon: <BiLogoJavascript /> },
-  { name: 'React', percentage: 85, icon: <BiLogoReact /> },
-  { name: 'TypeScript', percentage: 65, icon: <BiLogoTypescript /> },
+  { name: 'JavaScript', percentage: 75, icon: <BiLogoJavascript /> },
+  { name: 'React', percentage: 55, icon: <BiLogoReact /> },
+  { name: 'Python', percentage: 65, icon: <BiLogoPython /> },
   { name: 'Redux', percentage: 60, icon: <BiLogoRedux /> },
-  { name: 'HTML & CSS', percentage: 76, icon: <><BiLogoHtml5 /> <BiLogoCss3 /></> },
+  { name: 'Node.js', percentage: 76, icon: <BiLogoNodejs /> },
   { name: 'Tailwind', percentage: 65, icon: <BiLogoTailwindCss /> },
-  { name: 'Node.js', percentage: 50, icon: <BiLogoNodejs /> },
+  { name: 'Django', percentage: 60, icon: <BiLogoDjango/> },
 ];

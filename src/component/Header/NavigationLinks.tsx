@@ -9,9 +9,11 @@ function NavigationLinks({ closeMobileMenu }: any) {
   const navLinks = [
     { path: "/", text: "Home" },
     { path: "/About", text: "About" },
-    { path: "/Work", text: "Works" },
+    { path: "/Work", text: "Experience" },
     { path: "/Resume", text: "Resume" },
     { path: "/Contact", text: "Contact" },
+    { path: "/Projects", text: "Projects" },
+    { path: "/Blogs", text: "Blogs" },
   ];
 
   const activeLinkStyle = "text-red-500";

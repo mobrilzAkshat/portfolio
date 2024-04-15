@@ -2,9 +2,8 @@ import { TfiInstagram, TfiGithub, TfiTwitter, TfiLinkedin } from "react-icons/tf
 
 const SocialMediaIcons = () => {
     const instagramLink = `https://www.instagram.com/irahulks/`;
-    const gitHubLink = `https://github.com/irahulkumar1`;
-    const twitterLink = `https://twitter.com/irahulkv`;
-    const linkedInLink = `https://www.linkedin.com/in/irahulk/`;
+    const gitHubLink = `https://github.com/akshatchawla1997`;
+    const linkedInLink = `https://www.linkedin.com/in/akshat-sd1/`;
 
     return (
         <ul className="flex gap-6">
@@ -36,16 +35,6 @@ const SocialMediaIcons = () => {
                     className="icon-link"
                 >
                     <TfiInstagram className="icon" />
-                </a>
-            </li>
-            <li className="cursor-pointer group transform transition-transform duration-500 hover:scale-125">
-                <a
-                    href={twitterLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="icon-link"
-                >
-                    <TfiTwitter className="icon" />
                 </a>
             </li>
         </ul>
