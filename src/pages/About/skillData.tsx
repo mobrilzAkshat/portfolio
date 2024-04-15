@@ -8,4 +8,5 @@ export const skills = [
   { name: 'Node.js', percentage: 76, icon: <BiLogoNodejs /> },
   { name: 'Tailwind', percentage: 65, icon: <BiLogoTailwindCss /> },
   { name: 'Django', percentage: 60, icon: <BiLogoDjango/> },
+  { name: 'TypeScript', percentage: 50, icon: <BiLogoTypescript/> },
 ];
