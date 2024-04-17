@@ -16,9 +16,9 @@ export default function Resume() {
   return (
     <div>
       <section className="mt-10 flex justify-center">
-        <h1 className="text-darkHeadingColor text-3xl">
+        <h2 className="text-darkHeadingColor text-3xl">
           Resume
-        </h1>
+        </h2>
       </section>
       <section className="flex-row-reverse lg:flex lg:justify-center gap-[8rem]">
       <motion.div
@@ -27,19 +27,29 @@ export default function Resume() {
           animate="visible"
           variants={experienceVariants}
         >
-          <p className="text-darkHeadingColor text-center text-2xl font-bold p-5">Experience</p>
+          <h3 className="text-darkHeadingColor text-center text-2xl font-bold p-5">Experience</h3>
           {experience.map((exp, index) => {
           return (
             <div className="" key={index}>
-            <div className="px-5 py-3 text-textColor bg-[#e5e8f3] rounded-lg transition-transform duration-300 ease-in-out hover:bg-[#dee1ec] hover:cursor-pointer hover:shadow-xl
-            hover:transform hover:translate-x-2">
-              <p className="text-sm">{exp.date}</p>
-              <p className="text-xl font-semibold">
-                {/* <span>Icon</span> */}
-                {exp.company_name}
-              </p>
-              <p>{exp.job_title}</p>
-            </div>
+              <div className="px-5 py-3 text-textColor bg-[#e5e8f3] rounded-lg transition-transform duration-300 ease-in-out hover:bg-[#dee1ec] hover:cursor-pointer hover:shadow-xl
+              hover:transform hover:translate-x-2">
+                <div className="flex justify-between">
+                  <div className="">
+                    <p className="text-xl font-semibold">
+                      {/* <span>Icon</span> */}
+                      {exp.company_name}
+                    </p>
+                    <p>{exp.job_title}</p>
+                  </div>
+                  <div className="">
+                    <p className="text-sm">{exp.date}</p>
+                  </div>
+                </div>
+                <p><span className="font-semibold" >Tech Stack :-</span> {exp.tech_stack}</p>
+              </div>
+              {/* <div className="w-10 h-20">
+                <img src={exp.logo} alt="" />
+              </div> */}
           </div>
             );
           })}
@@ -51,10 +61,10 @@ export default function Resume() {
           variants={educationVariants}
         >
           <div className="">
-            <p className="text-darkHeadingColor text-center text-2xl font-bold p-5">Education </p>
+            <h3 className="text-darkHeadingColor text-center text-2xl font-bold p-5">Education </h3>
             {education.map((edu, index)=>{
               return (
-              <div className="px-5 py-3 mb-5 text-textColor bg-[#e5e8f3] rounded-lg transition-transform duration-300 ease-in-out hover:bg-[#dee1ec] hover:cursor-pointer hover:shadow-xl
+              <div key={index} className="px-5 py-3 mb-5 text-textColor bg-[#e5e8f3] rounded-lg transition-transform duration-300 ease-in-out hover:bg-[#dee1ec] hover:cursor-pointer hover:shadow-xl
               hover:transform hover:translate-x-2">
                 <div className="flex justify-evenly">
                   <div className="pr-4">
