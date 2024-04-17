@@ -1,0 +1,42 @@
+[
+    {
+        "date":"March 2024 to Present",
+        "company_name":"Mobrilz",
+        "description":"",
+        "tech_stack":"Mysql, React.js, Node.js, Redux, Tanstack, Python, Django, Express.js",
+        "logo":"",
+        "job_title":"Full Stack Developer"
+    },
+    {
+        "date":"",
+        "company_name":"",
+        "description":"",
+        "tech_stack":"Mysql, React.js, Node.js, Redux, Tanstack, Python, Django, Express.js",
+        "logo":"",
+        "job_title":"Full Stack Developer"
+    },
+    {
+        "date":"",
+        "company_name":"Plutos One",
+        "description":"",
+        "tech_stack":"Mysql, Node.js, Python, Django, Rasa, Express.js",
+        "logo":"",
+        "job_title":"Full Stack Developer"
+    },
+    {
+        "date":"",
+        "company_name":"Pando India Software Consultant",
+        "description":"",
+        "tech_stack":"Mysql, React.js, Node.js, Redux, Tanstack, Python, Django, Express.js",
+        "logo":"",
+        "job_title":"Javascript Developer"
+    },
+    {
+        "date":"Feb 2019 to Sept 2019",
+        "company_name":"Bharat Electronics Ltd.",
+        "description":"",
+        "tech_stack":"Mysql, React.js, Node.js, Redux, Tanstack, Python, Django, Express.js",
+        "logo":"",
+        "job_title":"Java Developer Trainee"
+    }
+]

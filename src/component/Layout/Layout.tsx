@@ -3,11 +3,11 @@ import { Header } from "../Header/Header";
 
 const Layout = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <header className="z-20">
         <Header />
       </header>
-      <main className="flex-grow text-textColor px-4">
+      <main className="flex-grow text-textColor">
         <Outlet />
       </main>
       <footer>

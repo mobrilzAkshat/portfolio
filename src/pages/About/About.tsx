@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../../assets/Profile/profile2.jpg";
+import profile from "../../assets/Profile/about.gif";
 import { HiOutlineMinus } from "react-icons/hi";
 import { skills } from "./skillData";
 import { Link } from "react-router-dom";
