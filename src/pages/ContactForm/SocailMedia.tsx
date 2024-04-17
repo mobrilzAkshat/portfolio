@@ -2,9 +2,9 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import SocialMediaIcons from "../../component/SocialMediaIcons/SocialMediaIcons";
 
 const SocialMedia = () => {
-  const phoneNumber = "+919955956721";
-  const emailAddress = "irahulkv@gmail.com";
-  const location = "Noida, UP, India";
+  const phoneNumber = "+919897976962";
+  const emailAddress = "akshatchawla1997@gmail.com";
+  const location = "Noida, UP, 201301 India";
 
   const handlePhoneCall = () => {
     window.location.href = `tel:${phoneNumber}`;
