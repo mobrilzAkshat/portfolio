@@ -12,7 +12,7 @@ export default function Contact() {
             <p className="text-lg">
               Let’s make something new, different, and more meaningful or think more visual or conceptual?
               <br/>
-              <span className='text-2xl mt-2'>Just say hello!</span>
+              <span className='text-2xl mt-2 animate-bounce'>Just say hello!</span>
             </p>
             <span className='text-4xl mt-4'><BsArrowRight /></span>
           </div>
@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="flex flex-col items-center">
             <p className="text-lg">
               Let’s make something new, different, and more meaningful or think more visual or conceptual?
-              <span className='text-2xl mt-2'>Just say hello!</span>
+              <span className='text-2xl mt-2 animate-bounce'>Just say hello!</span>
             </p>
             <span className='text-4xl mt-4'><BsArrowRight /></span>
           </div>

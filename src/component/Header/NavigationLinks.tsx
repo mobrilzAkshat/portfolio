@@ -16,7 +16,7 @@ function NavigationLinks({ closeMobileMenu }: any) {
     { path: "/Blogs", text: "Blogs" },
   ];
 
-  const activeLinkStyle = "text-red-500";
+  const activeLinkStyle = "text-emerald-400";
 
   const handleClick = () => {
     closeMobileMenu();
