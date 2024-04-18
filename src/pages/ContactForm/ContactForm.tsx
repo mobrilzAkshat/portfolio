@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { databases, DATABASE_ID, FormDataID as COLLECTION_ID, ID } from '../../appwrite/appwriteConfig';
+// import { databases, DATABASE_ID, FormDataID as COLLECTION_ID, ID } from '../../appwrite/appwriteConfig';
 
 export default function ContactForm() {
   const initialFormData = {
@@ -35,22 +35,22 @@ export default function ContactForm() {
       return;
     }
 
-    try {
-      const response = await databases.createDocument(
-        DATABASE_ID,
-        COLLECTION_ID,
-        ID.unique(),
-        formData
-      );
-      if (response.$id) {
-        setSuccessMessage("Form submitted successfully!");
-        setFormData(initialFormData);
-      } else {
-        console.error('Form submission failed');
-      }
-    } catch (error) {
-      console.error(error);
-    }
+    // try {
+    //   const response = await databases.createDocument(
+    //     DATABASE_ID,
+    //     COLLECTION_ID,
+    //     ID.unique(),
+    //     formData
+    //   );
+    //   if (response.$id) {
+    //     setSuccessMessage("Form submitted successfully!");
+    //     setFormData(initialFormData);
+    //   } else {
+    //     console.error('Form submission failed');
+    //   }
+    // } catch (error) {
+    //   console.error(error);
+    // }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

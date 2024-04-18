@@ -34,9 +34,9 @@ export function Header() {
       </div>
       <div className={`${isMobileMenuOpen ? "block" : "hidden lg:block"} lg:flex items-center justify-between`}>
         <div className="lg:flex items-center hidden">
-          <div className="logo w-12 h-12 bg-gray-700 flex justify-center">
-          <img src={logo} alt="" className="rounded-full w-20 bg-transparent" />
-
+          <div className="logo w-20 h-12 bg-gray-700 flex justify-center">
+          {/* <img src={logo} alt="" className="rounded-full w-20 bg-transparent" /> */}
+            <h2 className="p-2 ">Akshat</h2>
           </div>
         </div>
         <NavigationLinks closeMobileMenu={closeMobileMenu} isMobileMenuOpen={isMobileMenuOpen} isMounted={isMounted} />

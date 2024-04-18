@@ -12,8 +12,8 @@ function NavigationLinks({ closeMobileMenu }: any) {
     { path: "/Work", text: "Experience" },
     { path: "/Resume", text: "Resume" },
     { path: "/Contact", text: "Contact" },
-    { path: "/Projects", text: "Projects" },
-    { path: "/Blogs", text: "Blogs" },
+    // { path: "/Projects", text: "Projects" },
+    // { path: "/Blogs", text: "Blogs" },
   ];
 
   const activeLinkStyle = "text-emerald-400";
