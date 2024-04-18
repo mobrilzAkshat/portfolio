@@ -27,7 +27,7 @@ export function Header() {
 
   return (
     <header className="text-textHeaderColor">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between ">
         <button onClick={toggleMobileMenu} className="lg:hidden block focus:outline-none">
           {isMobileMenuOpen ? <HiX className="h-6 w-6" /> : <HiMenu className="h-6 w-6" />}
         </button>

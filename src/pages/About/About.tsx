@@ -72,7 +72,7 @@ const About = () => {
             <div className="mt-3">
               <Link
                 to="/Contact"
-                className="bg-highLighter hover:bg-[#ff577f] text-white font-bold py-2 px-4 rounded-sm shadow-lg"
+                className="bg-emerald-400 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-sm shadow-lg"
               >
                 Hire me
               </Link>
