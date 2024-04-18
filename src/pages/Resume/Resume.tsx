@@ -87,7 +87,7 @@ export default function Resume() {
           </div>
           </motion.div>
       </section>
-      <section>
+      {/* <section>
         <p className="text-darkHeadingColor text-center text-2xl font-bold p-5">
           Certifications
         </p>
@@ -118,7 +118,7 @@ export default function Resume() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
