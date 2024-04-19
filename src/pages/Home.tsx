@@ -5,6 +5,8 @@ import { HiOutlineMinus } from "react-icons/hi";
 import { Resume } from "../component/ResumeButton/ResumeButton";
 import { Slide } from "react-awesome-reveal";
 import { Typewriter } from 'react-simple-typewriter'
+// @ts-ignore
+// import TechStack from '../component/carousel/TechStack'
 
 
 const Home = () => {
@@ -70,7 +72,6 @@ const Home = () => {
               2+ years of experience as Web Developer with a specialization in<span className="font-semibold text-blue-500"> <Typewriter loop={true} words={['MERN Stack Developer ','Backend Developer', 'React.js Developer', 'Node.js Developer', 'Python Developer', 'Django Developer']}/> </span>, based in
               Noida, Uttar Pradesh, India. I'm a passionate engineer eager to contribute my skills
               and collaborate with teams around the world.
-
             </p>
             <div>
               <Resume />
@@ -94,6 +95,7 @@ const Home = () => {
           <SocialMediaIcons />
         </motion.div>
       </section>
+      {/* <TechStack /> */}
     </motion.main>
   );
 };
