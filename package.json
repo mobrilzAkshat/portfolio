@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://akshatchawla1997.github.io/portfolio/",
+  "homepage": "/portfolio/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@splidejs/splide": "^4.1.4",
