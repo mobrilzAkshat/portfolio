@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import NavigationLinks from "./NavigationLinks";
-import logo from "../../assets/Profile/logoR.png";
 
 export function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);

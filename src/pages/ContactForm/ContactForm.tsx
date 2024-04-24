@@ -10,7 +10,6 @@ export default function ContactForm() {
   };
 
   const [formData, setFormData] = useState(initialFormData);
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [errors, setErrors] = useState({
     name: '',
     email: '',
@@ -140,9 +139,6 @@ export default function ContactForm() {
           >
             Hire Me
           </button>
-        </div>
-        <div className="flex justify-end lg:justify-center">
-          {successMessage && <p className="text-green-500">{successMessage}</p>}
         </div>
       </form>
     </>

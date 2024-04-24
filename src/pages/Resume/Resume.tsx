@@ -1,4 +1,3 @@
-import { certifications } from "./ResumeData";
 import { motion } from "framer-motion";
 import experience from "./experience.json"
 import education from "./education.json"

@@ -2,7 +2,6 @@ import { lazy, Suspense, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import  Loader from "../src/component/PortfolioLoader/Loader";
-import { PiSmileySadDuotone } from "react-icons/pi";
 
 const Layout = lazy(() => import("./component/Layout/Layout"));
 const Home = lazy(() => import("./pages/Home"));

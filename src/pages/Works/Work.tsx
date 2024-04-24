@@ -12,7 +12,7 @@ interface Project {
   tags: string[];
   features: string[];
   organisationWorkedWith: string;
-  organisationLogo: string;
+  organisationLogo?: string; // Make organisationLogo optional
 }
 
 const Work: React.FC = () => {

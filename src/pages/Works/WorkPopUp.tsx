@@ -9,14 +9,13 @@ interface Project {
   link: string;
   tags: string[];
   organisationWorkedWith: string;
-  organisationLogo: string;
+  organisationLogo?: string; // Make organisationLogo optional
 }
 
 interface WorkPopUpProps {
   selectedProject: Project | null; 
   closeModal: () => void;
 }
-
 
 const WorkPopUp: React.FC<WorkPopUpProps> = ({ selectedProject, closeModal }) => {
   const modalRef = useRef<HTMLDivElement>(null);
@@ -65,7 +64,7 @@ const WorkPopUp: React.FC<WorkPopUpProps> = ({ selectedProject, closeModal }) =>
         <button className="absolute top-4 right-4 text-gray-500" onClick={closeModal}>
           <AiOutlineCloseCircle size={24} />
         </button>
-        <h2 className="text-3xl font-bold mb-4">{selectedProject?.name}</h2>
+        <h2 className="text-3xl font-bold mb-4">{selectedProject.name}</h2>
         <div className="mb-4">
           <h3 className="text-xl font-semibold mb-2">Description</h3>
           <p className="text-gray-600">{selectedProject.description}</p>
@@ -93,7 +92,7 @@ const WorkPopUp: React.FC<WorkPopUpProps> = ({ selectedProject, closeModal }) =>
           )}
           <p className="text-gray-600">{selectedProject.organisationWorkedWith}</p>
         </div>
-        </motion.div>
+      </motion.div>
     </motion.div>
   );
 };
