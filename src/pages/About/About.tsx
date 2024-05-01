@@ -43,7 +43,7 @@ const About = () => {
           <img
             src={profile}
             alt="Your Photo"
-            className="max-w-full h-auto rounded-full w-[23rem]"
+            className="max-w-full h-auto rounded-full w-[23rem] align-top"
           />
         </motion.div>
         <motion.div
@@ -65,10 +65,32 @@ const About = () => {
               <h1 className="text-darkHeadingColor mb-4">About Me</h1>
             </div>
             <p className="text-gray-700 text-lg">
-              With 2 years of diverse development experience across various
-              technology stacks, I bring creativity and expertise to every
-              project.
+            A dedicated software engineer with 2 years of diverse development experience across various technology stacks. 
+            I specialize in both frontend and backend development, with a passion for creating seamless and intuitive web a
+            pplications.
             </p>
+            <h3 className="py-10 text-xl font-bold">Backend Development:</h3>
+            <p className="pl-5">With a strong background in backend development, I excel at building scalable and secure RESTful APIs 
+            and microservices. I am proficient in Node.js and Express.js and have extensive experience working with SQL and NoSQL 
+            databases, particularly PostgreSQL and MySql.</p>
+            <h3 className="py-10 text-xl font-bold">Frontend Development:</h3>
+            <p className="pl-5">I am also skilled in frontend development, with expertise in HTML, CSS, and JavaScript frameworks such as 
+            React.js. I have a keen eye for design and usability, and I am dedicated to creating intuitive and engaging user 
+            interfaces.</p>
+            <h3 className="py-10 text-xl font-bold">Cloud Deployment:</h3>
+            <p className="pl-5">
+            I have experience deploying applications on cloud platforms like AWS, ensuring high availability and scalability. 
+            I am proficient in setting up and managing AWS services like EC2, S3, and RDS, and I am committed to optimizing 
+            performance and reducing latency.
+            </p>
+            <h3 className="py-10 text-xl font-bold">What I Bring to the Table:</h3>
+            <ol>
+              <li>Creative problem solver with a passion for innovation.</li>
+              <li>Ability to work effectively in both independent and team environments.</li>
+              <li>Commitment to writing clean, efficient, and maintainable code.</li>
+              <li>Dedication to staying up-to-date with the latest technologies and best practices.</li>
+            </ol>
+            <i className="py-5">I am always eager to take on new challenges and learn new technologies to expand my skill set and deliver exceptional results.</i>
             <div className="mt-3">
               <Link
                 to="/Contact"

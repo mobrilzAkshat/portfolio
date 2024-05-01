@@ -25,7 +25,7 @@ export const projects = [
     features :['WhatsApp api integration, daily offers',', coupon code based on daily polls reward points','website inte'],
     organisationWorkedWith: "Plutos One",
     // organisationLogo: PandoIndia,
-    description: "This is a Coupon base website where the user can get the coupon for various brands on a click, My role and responsibility was to create a chatbot into Rasa and integrate it to multiple Messaging applicaiton like whatsapp, telegram, GBM(Google Business Messaging) The coupons are based on Daily basis on trending topics they were delivering 100 points on daily basis and 50 points for referral. The flow chart was created first to clear the problem and then solved into the chunks. ",
+    description: "This is a Coupon based website where the user can get the coupon for various brands on a click, My role and responsibility was to create a chatbot into Rasa and integrate it to multiple Messaging applicaiton like whatsapp, telegram, GBM(Google Business Messaging) The coupons are based on Daily basis on trending topics they were delivering 100 points on daily basis and 50 points for referral. The flow chart was created first to clear the problem and then solved into the chunks. ",
   },
   {
     name: 'Zamplia',
