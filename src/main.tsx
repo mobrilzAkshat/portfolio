@@ -1,13 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import AppRoutes from './AppRoutes.tsx';
-import './index.css'
-import { BrowserRouter} from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import AppRoutes from "./AppRoutes.tsx";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+import { PrimeReactProvider } from "primereact/api";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
-     <AppRoutes />
+      <PrimeReactProvider>
+        <AppRoutes />
+      </PrimeReactProvider>
     </BrowserRouter>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

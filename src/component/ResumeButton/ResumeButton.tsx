@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import resumePDF from '/src/assets/Resume/Rahul_cv.pdf';
+import resumePDF from '/src/assets/resume/akshatBackend.pdf';
 import { FaDownload } from "react-icons/fa";
 import SendMail from './SendMail';
 
@@ -23,7 +23,7 @@ export const Resume = () => {
             .then(() => {
                 const link = document.createElement('a');
                 link.href = resumePDF;
-                link.download = 'Rahul_cv.pdf';
+                link.download = 'AkshatChawla.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
