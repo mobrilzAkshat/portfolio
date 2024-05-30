@@ -45,19 +45,21 @@ export const Resume = () => {
     };
 
     return (
-        <>
+        <>  
+        <div className="flex ">
+
             <button
-                className={`w-36 relative bg-emerald-400 hover:bg-teal-600 mt-3 text-white font-bold py-2 px-4 rounded-sm shadow-lg ${showProgressBar ? 'hidden' : ''}`}
+                className={`relative bg-emerald-400 hover:bg-teal-600 mt-3 flex w-auto text-white font-bold py-2 px-4 rounded-sm shadow-lg ${showProgressBar ? 'hidden' : ''}`}
                 onClick={handleDownloadClick}
                 disabled={showProgressBar}
-            >
-                Download CV <FaDownload className='text-center' />
+                >
+                Download CV <FaDownload className='px-1.5 text-center absolute top-3 right-0.5 text-xl' />
             </button>
             <button
                 className={`relative bg-emerald-400 hover:bg-teal-600 ml-32 mt-3 text-white font-bold py-2 px-4 rounded-sm shadow-lg ${showSendMail ? 'hidden' : ''}`}
                 onClick={handleEmailCv}
                 disabled={showSendMail}
-            >
+                >
                 CV on mail
             </button>
             {showSendMail && <SendMail onClose={handleCloseSendMail} />}
@@ -66,9 +68,10 @@ export const Resume = () => {
                     <div
                         className="absolute top-0 left-0 h-full bg-highLighter"
                         style={{ width: `${progressBarValue}%` }}
-                    />
+                        />
                 </div>
             )}
+            </div>
         </>
     );
 };
