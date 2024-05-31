@@ -5,8 +5,7 @@ import { HiOutlineMinus } from "react-icons/hi";
 import { Resume } from "../component/ResumeButton/ResumeButton";
 import { Slide } from "react-awesome-reveal";
 import { Typewriter } from 'react-simple-typewriter'
-// @ts-ignore
-// import TechStack from '../component/carousel/TechStack'
+import TechStack from '../component/carousel/Techstack'
 
 
 const Home = () => {
@@ -52,7 +51,7 @@ const Home = () => {
       initial="hidden"
       animate="visible"
     >
-      <section className="flex flex-col-reverse md:flex-row items-center justify-center h-screen gap-20 -mt-20">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between h-screen gap-20">
         <motion.div
           className="md:w-1/2 lg:w-[30rem] text-center"
           variants={textVariants}
@@ -85,6 +84,9 @@ const Home = () => {
           variants={imgVariants}
         />
       </section>
+      <section className="pb-32">
+        <TechStack />
+      </section>
       <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center">
         <motion.div
           className="text-xl mb-[1rem] m-[2rem] lg:mb-[6rem]"
@@ -95,7 +97,8 @@ const Home = () => {
           <SocialMediaIcons />
         </motion.div>
       </section>
-      {/* <TechStack /> */}
+      
+     
     </motion.main>
   );
 };
