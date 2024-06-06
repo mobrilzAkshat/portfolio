@@ -4,6 +4,7 @@ const SocialMediaIcons = () => {
     const instagramLink = `https://www.instagram.com/akichawla1997/`;
     const gitHubLink = `https://github.com/akshatchawla1997`;
     const linkedInLink = `https://www.linkedin.com/in/akshat-sd1/`;
+    const discord = ''
 
     return (
         <ul className="flex gap-6">
