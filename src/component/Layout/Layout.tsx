@@ -1,5 +1,7 @@
+
 import { Outlet } from "react-router-dom";
 import { Header } from "../Header/Header";
+import WhatsAppButton from './WhatsAppButton'
 
 const Layout = () => {
   return (
@@ -13,6 +15,7 @@ const Layout = () => {
       <footer>
         {/* Footer */}
       </footer>
+      <WhatsAppButton />
     </div>
   );
 };
