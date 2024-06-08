@@ -46,7 +46,7 @@ export function Header() {
         } lg:flex items-center justify-between`}
       >
         <div className="lg:flex items-center hidden">
-          <div className="logo w-24 h-24 h-12 flex justify-center">
+          <div className="logo w-24 h-24 h-12 flex justify-center cursor-pointer">
             <img
               src={Akshat_logo}
               alt="Profile logo"
