@@ -4,10 +4,11 @@ import SocialMediaIcons from "../component/SocialMediaIcons/SocialMediaIcons";
 import { HiOutlineMinus } from "react-icons/hi";
 import { Resume } from "../component/ResumeButton/ResumeButton";
 import { Slide } from "react-awesome-reveal";
-import { Typewriter } from 'react-simple-typewriter'
-import TechStack from '../component/carousel/Techstack'
-
-
+import { Typewriter } from "react-simple-typewriter";
+import TechStack from "../component/carousel/Techstack";
+import SkillsBarChart from '../component/carousel/SkillsBarChart'
+import Blogs from '../component/carousel/Blogs'
+import VennDiagram from '../component/carousel/VennDiagram'
 const Home = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -58,19 +59,38 @@ const Home = () => {
         >
           <div className="text-lg font-bold text-left mb-4 flex">
             <div className="flex items-center -space-x-1.5">
-              <span><HiOutlineMinus /></span>
-              <span><HiOutlineMinus /></span>
+              <span>
+                <HiOutlineMinus />
+              </span>
+              <span>
+                <HiOutlineMinus />
+              </span>
             </div>
             <span className="ml-3">Hello</span>
           </div>
           <div className="text-left">
             <p>
-            <Slide>
-              <h1 className="font-bold text-3xl">Akshat Chawla</h1>
-            </Slide>
-              2+ years of experience as Web Developer with a specialization in<span className="font-semibold text-blue-500"> <Typewriter loop={true} words={['MERN Stack Developer ','Backend Developer', 'React.js Developer', 'Node.js Developer', 'Python Developer', 'Django Developer']}/> </span>, based in
-              Noida, Uttar Pradesh, India. I'm a passionate engineer eager to contribute my skills
-              and collaborate with teams around the world.
+              <Slide>
+                <h1 className="font-bold text-3xl">Akshat Chawla</h1>
+              </Slide>
+              2+ years of experience as Web Developer with a specialization in
+              <span className="font-semibold text-blue-500">
+                {" "}
+                <Typewriter
+                  loop={true}
+                  words={[
+                    "MERN Stack Developer ",
+                    "Backend Developer",
+                    "React.js Developer",
+                    "Node.js Developer",
+                    "Python Developer",
+                    "Django Developer",
+                  ]}
+                />{" "}
+              </span>
+              , based in Noida, Uttar Pradesh, India. I'm a passionate engineer
+              eager to contribute my skills and collaborate with teams around
+              the world.
             </p>
             <div>
               <Resume />
@@ -84,8 +104,18 @@ const Home = () => {
           variants={imgVariants}
         />
       </section>
+      <section>
+        <VennDiagram />
+      </section>
       <section className="pb-32">
         <TechStack />
+      </section>
+      <section>
+        <Blogs />
+      </section>
+      <section>
+      <h2>My Skills</h2>
+        <SkillsBarChart />
       </section>
       <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center">
         <motion.div
@@ -97,8 +127,6 @@ const Home = () => {
           <SocialMediaIcons />
         </motion.div>
       </section>
-      
-     
     </motion.main>
   );
 };
