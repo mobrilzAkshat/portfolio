@@ -9,6 +9,7 @@ import TechStack from "../component/carousel/Techstack";
 import SkillsBarChart from '../component/carousel/SkillsBarChart'
 import Blogs from '../component/carousel/Blogs'
 import VennDiagram from '../component/carousel/VennDiagram'
+import CircularButtons from '../component/carousel/CircularButtons' 
 const Home = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -52,7 +53,7 @@ const Home = () => {
       initial="hidden"
       animate="visible"
     >
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between h-screen gap-20">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between  gap-20">
         <motion.div
           className="md:w-1/2 lg:w-[30rem] text-center"
           variants={textVariants}
@@ -103,6 +104,9 @@ const Home = () => {
           className="md:w-1/2 w-[20rem] lg:w-[36rem] lg:h-[36rem] rounded-b-full mt-4"
           variants={imgVariants}
         />
+      </section>
+      <section>
+      <CircularButtons />
       </section>
       <section>
         <VennDiagram />
