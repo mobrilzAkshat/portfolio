@@ -114,9 +114,9 @@ const Home = () => {
       <section className="pb-32">
         <TechStack />
       </section>
-      <section>
+      {/* <section>
         <Blogs />
-      </section>
+      </section> */}
       <section>
       <h2>My Skills</h2>
         <SkillsBarChart />
