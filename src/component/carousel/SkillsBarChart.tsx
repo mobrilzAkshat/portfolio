@@ -10,9 +10,10 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "html & css", level: 4 },
+  { name: "HTML & CSS", level: 4 },
   { name: "javascript", level: 11 },
   { name: "ES6 & React", level: 6 },
+  { name: "Redux-Toolkit", level: 5 },
   { name: "Node.js and Express.js", level: 10 },
   { name: "python", level: 7 },
   { name: "Django", level: 6 },
@@ -30,11 +31,11 @@ const SkillsBarChart = () => {
               margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
             >
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
+              <XAxis dataKey="name" tick={{ angle: -45, textAnchor: 'end' }} />
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="level" fill="#8884d8" />
+              <Bar dataKey="level" fill="#8884d8"/>
             </BarChart>
           </ResponsiveContainer>
         </div>

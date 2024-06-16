@@ -7,7 +7,7 @@ import { Slide } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 import TechStack from "../component/carousel/Techstack";
 import SkillsBarChart from '../component/carousel/SkillsBarChart'
-import Blogs from '../component/carousel/Blogs'
+// import Blogs from '../component/carousel/Blogs'
 import VennDiagram from '../component/carousel/VennDiagram'
 import CircularButtons from '../component/carousel/CircularButtons' 
 const Home = () => {
@@ -108,7 +108,7 @@ const Home = () => {
       <section>
       <CircularButtons />
       </section>
-      <section>
+      <section className="py-10">
         <VennDiagram />
       </section>
       <section className="pb-32">
@@ -117,11 +117,11 @@ const Home = () => {
       {/* <section>
         <Blogs />
       </section> */}
-      <section>
-      <h2>My Skills</h2>
+      <section className="py-20">
+      <h2 className="font-semibold text-2xl py-10">My Skills</h2>
         <SkillsBarChart />
       </section>
-      <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center">
+      <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center pt-20">
         <motion.div
           className="text-xl mb-[1rem] m-[2rem] lg:mb-[6rem]"
           initial={{ opacity: 0 }}
