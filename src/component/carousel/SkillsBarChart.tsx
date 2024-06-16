@@ -11,10 +11,10 @@ import {
 
 const data = [
   { name: "html & css", level: 4 },
-  { name: "javascript", level: 9 },
+  { name: "javascript", level: 11 },
   { name: "ES6 & React", level: 6 },
-  { name: "Node.js and Express.js", level: 8 },
-  { name: "python", level: 5 },
+  { name: "Node.js and Express.js", level: 10 },
+  { name: "python", level: 7 },
   { name: "Django", level: 6 },
   { name: "Rasa", level: 4 },
 ];
@@ -40,11 +40,11 @@ const SkillsBarChart = () => {
         </div>
         <div className="flex-1">
           <ol>
-            <li className="border-b-2 text-3xl border-r-black-500 border-r-4 pt-8">I'm <span className="font-semibold">master</span> of the universe</li>
-            <li className="border-b-2 text-3xl border-r-black-500 border-r-4 pt-8"><span className="font-semibold">High.</span>I'm preety good</li>
-            <li className="border-b-2 text-3xl border-r-black-500 border-r-4 pt-8"><span className="font-semibold">Medium.</span>I'm trying to improve</li>
-            <li className="border-b-2 text-3xl border-r-black-500 border-r-4 pt-8"><span className="font-semibold">Basic.</span>You can't always win</li>
-            <li className="border-b-2 text-3xl border-r-black-500 border-r-4 pt-8"><span className="font-semibold">Uh!</span>Next Question?</li>
+            <li className="border-b-2 text-3xl border-r-black border-r-4 pt-8">I'm <span className="font-semibold">master</span> of the universe</li>
+            <li className="border-b-2 text-3xl border-r-green-500 border-r-4 pt-8"><span className="font-semibold">High.</span>I'm preety good</li>
+            <li className="border-b-2 text-3xl border-r-lime-500 border-r-4 pt-8"><span className="font-semibold">Medium.</span>I'm trying to improve</li>
+            <li className="border-b-2 text-3xl border-r-yellow-500 border-r-4 pt-8"><span className="font-semibold">Basic.</span>You can't always win</li>
+            <li className="border-b-2 text-3xl border-r-red-500 border-r-4 pt-8"><span className="font-semibold">Uh!</span>Next Question?</li>
           </ol>
         </div>
       </div>
