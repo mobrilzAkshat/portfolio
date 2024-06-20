@@ -9,7 +9,7 @@ const CircularButtons = () => {
           <div className="w-40 h-40 bg-red-300 rounded-full flex items-center justify-center text-white text-center text-lg font-semibold transition-transform transform group-hover:scale-110">
             learn more about me
           </div>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
+          <div className="absolute bottom-10 text-semibold text-xl left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
             &darr;
           </div>
         </NavHashLink>
@@ -19,7 +19,7 @@ const CircularButtons = () => {
           <div className="w-40 h-40 bg-yellow-300 rounded-full flex items-center justify-center text-white text-center text-lg font-semibold transition-transform transform group-hover:scale-110">
             Experience
           </div>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
+          <div className="absolute  bottom-10 text-semibold text-xl left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
             &darr;
           </div>
         </NavHashLink>
@@ -29,7 +29,7 @@ const CircularButtons = () => {
           <div className="w-40 h-40 bg-green-300 rounded-full flex items-center justify-center text-white text-center text-lg font-semibold transition-transform transform group-hover:scale-110">
             Skills
           </div>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
+          <div className="absolute  bottom-10 font-semibold text-xl left-1/2 transform -translate-x-1/2 translate-y-3 text-white">
             &darr;
           </div>
         </NavHashLink>

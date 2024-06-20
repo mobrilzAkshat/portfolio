@@ -121,7 +121,7 @@ const Home = () => {
       <h2 className="font-semibold text-2xl py-10">My Skills</h2>
         <SkillsBarChart />
       </section>
-      <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center pt-20">
+      <section className="absolute bottom-[-4rem] flex flex-col lg:flex-row justify-center lg:justify-between w-full items-center pt-48">
         <motion.div
           className="text-xl mb-[1rem] m-[2rem] lg:mb-[6rem]"
           initial={{ opacity: 0 }}
