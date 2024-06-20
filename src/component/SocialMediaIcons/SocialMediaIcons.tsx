@@ -4,10 +4,10 @@ const SocialMediaIcons = () => {
     const instagramLink = `https://www.instagram.com/akichawla1997/`;
     const gitHubLink = `https://github.com/akshatchawla1997`;
     const linkedInLink = `https://www.linkedin.com/in/akshat-sd1/`;
-    const discord = ''
+    // const discord = ''
 
     return (
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 pt-48">
             <li className="cursor-pointer group transform transition-transform duration-500 hover:scale-125">
                 <a
                     href={linkedInLink}
