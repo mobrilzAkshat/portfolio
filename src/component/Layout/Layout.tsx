@@ -13,7 +13,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer>
-        
+        {/* Footer */}
       </footer>
       <WhatsAppButton />
     </div>
