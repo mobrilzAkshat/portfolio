@@ -12,9 +12,9 @@ const Layout = () => {
       <main className="flex-grow text-textColor">
         <Outlet />
       </main>
-      <footer>
-        {/* Footer */}
-      </footer>
+      {/* <footer>
+        Footer
+      </footer> */}
       <WhatsAppButton />
     </div>
   );
